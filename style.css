@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+.container{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+#myCanvas
+{
+    background-color:white;
+}
+h1{
+    text-align: center;
+}
+.header{
+    background-image: linear-gradient(orange, white,green);
+    color:navy;
+    min-height: 100px;
+}
+.footer{
+    text-align: center;
+    font-size: 16px;
+    background-image: linear-gradient(#ffafbd , #ffc3a0);
+    
+}
+#btn{
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+}
+#btn:hover {
+    box-shadow: 3px 3px black ;
+    background: linear-gradient(45deg, transparent, grey);
+    ;
+}
+
+
